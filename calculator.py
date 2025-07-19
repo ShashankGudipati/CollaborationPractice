@@ -1,15 +1,15 @@
 class Calculator:
     def multiply(factor1: float, factor2: float) -> float:
-        pass
+        return factor1 * factor2
 
     def divide(dividend: float, divisor: float) -> float:
-        pass
+        return dividend / divisor
     
     def add(number1: float, number2: float) -> float:
-        pass
+        return number1 + number2
     
     def subtract(minuend: float, subtrahend: float) -> float:
-        pass
+        return minuend - subtrahend
     
     def power(base: float, exponent: int) -> float:
         return base ** exponent
